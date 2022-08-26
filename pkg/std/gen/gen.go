@@ -15,7 +15,7 @@ import (
 	"golang.org/x/tools/go/packages"
 )
 
-//go:generate go run -tags gen github.com/incu6us/goimports-reviser/v2/pkg/std/gen
+//go:generate go run -tags gen github.com/metabd/goimports-reviser/v2/pkg/std/gen
 
 const (
 	fileName = "package_list.go"

@@ -10,8 +10,8 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/incu6us/goimports-reviser/v3/helper"
-	"github.com/incu6us/goimports-reviser/v3/reviser"
+	"github.com/metabd/goimports-reviser/v3/helper"
+	"github.com/metabd/goimports-reviser/v3/reviser"
 )
 
 const (
@@ -67,7 +67,7 @@ func init() {
 		&projectName,
 		projectNameArg,
 		"",
-		"Your project name(ex.: github.com/incu6us/goimports-reviser). Optional parameter.",
+		"Your project name(ex.: github.com/metabd/goimports-reviser). Optional parameter.",
 	)
 
 	flag.StringVar(

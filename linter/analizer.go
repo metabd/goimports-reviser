@@ -9,8 +9,8 @@ import (
 	"go/parser"
 	"go/token"
 
-	"github.com/incu6us/goimports-reviser/v2/pkg/module"
-	"github.com/incu6us/goimports-reviser/v2/reviser"
+	"github.com/metabd/goimports-reviser/v2/pkg/module"
+	"github.com/metabd/goimports-reviser/v2/reviser"
 	"golang.org/x/tools/go/analysis"
 )
 

@@ -8,10 +8,10 @@
 
 ---
 
-# goimports-reviser [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Right%20golang%20imports%20sorting%20and%20code%20formatting%20tool%20(goimports%20alternative)&url=https://github.com/incu6us/goimports-reviser&hashtags=golang,code,goimports-reviser,goimports,gofmt,developers)
-!['Status Badge'](https://github.com/incu6us/goimports-reviser/workflows/build/badge.svg)
-!['Release Badge'](https://github.com/incu6us/goimports-reviser/workflows/release/badge.svg)
-!['Quality Badge'](https://goreportcard.com/badge/github.com/incu6us/goimports-reviser)
+# goimports-reviser [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Right%20golang%20imports%20sorting%20and%20code%20formatting%20tool%20(goimports%20alternative)&url=https://github.com/metabd/goimports-reviser&hashtags=golang,code,goimports-reviser,goimports,gofmt,developers)
+!['Status Badge'](https://github.com/metabd/goimports-reviser/workflows/build/badge.svg)
+!['Release Badge'](https://github.com/metabd/goimports-reviser/workflows/release/badge.svg)
+!['Quality Badge'](https://goreportcard.com/badge/github.com/metabd/goimports-reviser)
 [![codecov](https://codecov.io/gh/incu6us/goimports-reviser/branch/master/graph/badge.svg)](https://codecov.io/gh/incu6us/goimports-reviser)
 ![GitHub All Releases](https://img.shields.io/github/downloads/incu6us/goimports-reviser/total?color=green)
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/incu6us/goimports-reviser?color=green)
@@ -68,7 +68,7 @@ Usage of goimports-reviser:
   -output string
         Can be "file", "write" or "stdout". Whether to write the formatted content back to the file or to stdout. When "write" together with "-list-diff" will list the file name and write back to the file. Optional parameter. (default "file")
   -project-name string
-        Your project name(ex.: github.com/incu6us/goimports-reviser). Optional parameter.
+        Your project name(ex.: github.com/metabd/goimports-reviser). Optional parameter.
   -recursive
         Apply rules recursively if target is a directory. In case of ./... execution will be recursively applied by default. Optional parameter.
   -rm-unused
@@ -99,7 +99,7 @@ package testdata
 import (
 	"log"
 
-	"github.com/incu6us/goimports-reviser/testdata/innderpkg"
+	"github.com/metabd/goimports-reviser/testdata/innderpkg"
 
 	"bytes"
 
@@ -117,7 +117,7 @@ import (
 	
 	"github.com/pkg/errors"
 	
-	"github.com/incu6us/goimports-reviser/testdata/innderpkg"
+	"github.com/metabd/goimports-reviser/testdata/innderpkg"
 )
 ```
 
@@ -140,7 +140,7 @@ package testdata // goimports-reviser/testdata
 import (
 	"fmt" //fmt package
 	"github.com/pkg/errors" //custom package
-	"github.com/incu6us/goimports-reviser/pkg" // this is a company package which is not a part of the project, but is a part of your organization
+	"github.com/metabd/goimports-reviser/pkg" // this is a company package which is not a part of the project, but is a part of your organization
 	"goimports-reviser/pkg"
 )
 ```
@@ -154,7 +154,7 @@ import (
 
 	"github.com/pkg/errors" // custom package
 
-	"github.com/incu6us/goimports-reviser/pkg" // this is a company package which is not a part of the project, but is a part of your organization
+	"github.com/metabd/goimports-reviser/pkg" // this is a company package which is not a part of the project, but is a part of your organization
 
 	"goimports-reviser/pkg"
 )

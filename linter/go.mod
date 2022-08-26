@@ -1,9 +1,9 @@
-module github.com/incu6us/goimports-reviser/linter
+module github.com/metabd/goimports-reviser/linter
 
 go 1.18
 
 require (
-	github.com/incu6us/goimports-reviser/v2 v2.5.3
+	github.com/metabd/goimports-reviser/v2 v2.5.3
 	golang.org/x/tools v0.1.12
 )
 

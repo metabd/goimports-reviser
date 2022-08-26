@@ -8,7 +8,7 @@ import (
 
 	"golang.org/x/tools/go/analysis/singlechecker"
 
-	"github.com/incu6us/goimports-reviser/v2/reviser"
+	"github.com/metabd/goimports-reviser/v2/reviser"
 )
 
 func main() {
